@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $('select').formSelect();
+   
     $('.NavLateral-DropDown').on('click', function(e){
         e.preventDefault();
         var DropMenu=$(this).next('ul');
@@ -46,6 +48,12 @@ $(document).ready(function(){
             NotificationArea.addClass('NotificationArea-show');
         }
     });     
+});
+$('.datepicker').datepicker();
+
+$('.hi').on('click', function () {
+
+    // alert("hi");
 });
 (function($){
     $(window).load(function(){

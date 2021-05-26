@@ -1036,8 +1036,9 @@ article {
         width  : 110px;
         color  : #212121;
     }
-    .MyTile1area{
-display: unset;
+
+    .MyTile1area {
+        display: unset;
     }
 
 }
